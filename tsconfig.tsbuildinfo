@@ -1,0 +1,11 @@
+{
+    "root": [
+        "./src/app.tsx",
+        "./src/main.tsx",
+        "./src/components/charts.tsx",
+        "./src/components/sensorcard.tsx",
+        "./src/types/index.ts",
+        "./vite.config.ts"
+    ],
+    "version": "5.8.3"
+}
