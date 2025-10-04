@@ -1,9 +1,10 @@
 export type SensorData = {
-  temperature: number;
-  humidity: number;
-  pressure: number;
-  gasResistance: number;
-  timestamp: string;
+  id: string;
+  temperature: string;
+  humidity: string;
+  pressure: string;
+  airQuality: string;
+  created_at: string;
 };
 
 export type SensorStatus = {
@@ -17,5 +18,5 @@ export type HistoricalData = {
   temperature: number;
   humidity: number;
   pressure: number;
-  gasResistance: number;
+  air_quality: number;
 };
